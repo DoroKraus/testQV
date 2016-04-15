@@ -24,3 +24,15 @@ Month,Quarter
 1,Q1
 2,Q1
 ];
+
+LOAD ID, 
+     Length, 
+     Rating, 
+     RatingColor, 
+     RatingStar, 
+     Title, 
+     Year
+FROM
+[C:\Users\Dorothea\Desktop\Karlmax\QlikView\Projekte\Rohdaten-QlikView\Filme.xls]
+(biff, embedded labels, table is Sheet1$);
+
